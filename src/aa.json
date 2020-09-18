@@ -1,0 +1,21 @@
+{
+  "_index": "tutor_monitor_20200714",
+  "_type": "_doc",
+  "_id": "_cznSHMBrLr9kHmF_WZu",
+  "_version": 1,
+  "_score": 1,
+  "_source": {
+    "id": null,
+    "tutorId": 59698,
+    "actionType": "enter",
+    "actionName": "private_chat_msg",
+    "traceId": null,
+    "timeStamp": 1594656030051,
+    "costing": 0,
+    "remark": null,
+    "serverName": "tutor-server",
+    "information": "{"recordCreateTime":1594656027000,"isFromRobot":12,"toUsername":"wxid_u3gp7u5jjgb922","reporter":15,"content":"来的时候不明确","recordId":520376122674434125,"msgSvrId":8885929394462571251,"msg_from":1,"betaType":0,"wechatMsgType":1,"logicId":143605,"fromUsername":"wxid_lgx6ldqalnp922","md5":"ae6e3d09a062267d36d1bf85fa03e1f5"}",
+    "datetime": "2020-07-14 00:00:30",
+    "success": true
+  }
+}
