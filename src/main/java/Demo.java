@@ -4,5 +4,6 @@ public class Demo {
         System.out.println("s2");
         System.out.println("m1");
         System.out.println("s3");
+        System.out.println("m2");
     }
 }
