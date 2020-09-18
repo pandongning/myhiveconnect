@@ -6,6 +6,6 @@ public class DemoTwo {
         System.out.println("s1");
         System.out.println("m6");
 
-        System.out.println("s2");
+        System.out.println("m8");
     }
 }
