@@ -1,7 +1,5 @@
 import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
 
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
@@ -14,12 +12,10 @@ public class RedisSource {
 
         Map<String, String> hashOne = jedis.hgetAll("hashone");
         Set<Map.Entry<String, String>> entries = hashOne.entrySet();
-        Iterator<Map.Entry<String, String>> iterator = entries.iterator();
-        while (iterator.hasNext()) {
-            Map.Entry<String, String> next = iterator.next();
+        for (Map.Entry<String, String> next : entries) {
             String key = next.getKey();
             String value = next.getValue();
-            System.out.println(key+"\t"+value);
+            System.out.println(key + "\t" + value);
         }
 
     }
