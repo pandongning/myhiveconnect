@@ -4,5 +4,6 @@ public class DemoTwo {
         System.out.println("master第5次提交");
 
         System.out.println("s1");
+        System.out.println("m6");
     }
 }
